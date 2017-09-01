@@ -1,0 +1,57 @@
+body{
+    overflow: hidden;
+    height: 100%;
+    font-size: 100%;
+    width: 100%;
+}
+.desc{
+    
+    position: absolute;
+    top: 50%;
+       
+}
+.button{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+}
+.button:active{
+     border: 3px solid black;
+}
+.button:hover{
+     border: 1 solid black;
+}
+.fullscreen {
+   height: 100%;
+    width: 100%;
+
+    /* Set the height to match that of the viewport. */
+    height: 100vh;
+
+    /* Set the width to match that of the viewport. */
+    width: 100vw;
+
+    /* Remove any browser-default margins. */
+    margin: 0;
+    
+}
+.lt{
+    background: red;
+    
+    
+}
+.rt{
+    background: blue;
+    
+}
+.timer{
+    position: relative;
+    top:1vh;
+}
+.timer h3{
+    font-size: 20px;
+}
+.timer h3 span{
+    font-size: 14px;
+}
