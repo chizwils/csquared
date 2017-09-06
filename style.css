@@ -1,120 +1,15 @@
-
-
-
 body{
-    
-    height: 100%;
-    font-size: 100%;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-}
-.desc{
-    clear: both;
-    position:relative ;
-    top: 10vh;
-    font: 50%;
-   
-       
-}
-.desc>*{
-    line-height: 40px;
-}
-.desc h2{
-    font-size: 1.5rem;
-   
-    font-kerning: auto;
-    color:#050505;
-    font-weight: 500;
-    letter-spacing: 0.2rem;
-    line-height: 40px;
-    border: 10px 10px 10px 10px;
-}
-.desc h2 span{
-    font-size:2em;
-    font-weight: 900;
-    color: #957558;
-   
-}
-.desc p{
-    line-height: 20px;
-    margin-top: 10px;
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: #050505;
-}
-.button{
-    
-    border-radius: 15rem;
-    background: #957558;
-    margin-top: 10px;
-    text-align: center;
-    padding: 0px 35px 40px 35px; 
-    color: #F2F2F2;
-}
-a.button{
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: #F2F2F2;
-    text-transform: none;
-    letter-spacing: 0.09em;
-}
-a i{
-    font-size: 1.3em!important;
-    font-weight: 100!important;
-}
-.button:active{
-    background: #C4B184;
-}
-.button:hover{
-      background: #C4B184;
-}
-.fullscreen {
-   height: 100%;
-    width: 100%;
-
-    /* Set the height to match that of the viewport. */
-    height: 100vh;
-
-    /* Set the width to match that of the viewport. */
-    width: 100vw;
-
-    /* Remove any browser-default margins. */
-    margin: 0;
-    
-}
-.lt{
-    background: #F2F2F2;
-    z-index: -100;
-    
-}
-.rt{
-    background: #957558;
-    z-index: -100;
-}
-.timer{
-   
-    width: 100%;
-    
-    
-   
-}
-.timer h3{
-    font-size: 3.5em;
-    font-weight: 700;
-    color: #F2F2F2;
-    width: 200%;
-    line-height: 30%;
-    position: relative;
-    top: 10vh;
+    font-size: 16px;
+    margin-top: 5%;
 }
 .timer h3 span{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 100;
-    color: white;
-    
-    opacity:0.5;
-        
 }
-#dtms >*{
-    width: 100%;
+h1,h3{
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+h1{
+    line-height: 5rem;
 }
