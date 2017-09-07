@@ -142,22 +142,22 @@
                     <div class="modal-content">
                         <h3>GET IN TOUCH!</h3>
                         <div class='row container'>
-                            <form class="col s12">
+                            <form class="col s12" action='/contact' method="POST">
                                 <div class='row'>
                                     <div class="input-field col s6">
-                                        <input id='full_name' type="text" class="validate">
+                                        <input id='full_name' name="full_name" type="text" class="validate">
                                         <label for='full_name'>Full Name</label>
                                     </div>
                                 </div>
                                 <div class='row'>
                                     <div class="input-field col s6">
-                                        <input id='email' type="email" class="validate">
+                                        <input id='email' type="email" class="validate" name="email">
                                         <label for='email'>Email</label>
                                     </div>
                                 </div>
                                 <div class='row'>
                                     <div class="input-field col s6">
-                                        <textarea id="message" class="materialize-textarea"></textarea>
+                                        <textarea id="message" class="materialize-textarea" name='message'></textarea>
                                         <label for='message'>Message</label>
                                     </div>
                                     <div class="col s6">
